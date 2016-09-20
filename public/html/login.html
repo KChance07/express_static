@@ -1,20 +1,32 @@
-login
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
+  <title>Twitter...</title>
 </head>
 <body>
-  <heading>
-    It still again
-  </heading>
-  <section></section>
-  <h1>
-    di da dum
-  </h1>
+  <header>
+    <h4>Log in to Twitter</h4>
+  </header>
+  <hr>
+  <main>
+    <form action="/login">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text">
+      </div>
+        <label for="password">Password:</label>
+        <input type="password">
+      <div>
+        <input type="checkbox">You agree!
+      </div>
+      <div>
+        <button type="submit">Log In</button>
+      </div>
+    </form>
+  </main>
+  <hr>
   <footer>
-    itsa foot
+    <p>Don't have an account? <a href="/signup">Sign Up</a></p>
   </footer>
 </body>
 </html>
