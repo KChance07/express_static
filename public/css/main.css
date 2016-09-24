@@ -86,14 +86,18 @@ ul.access li a:hover{
   height: 310px;
 }
 
-.box1 {
-  margin: 50px auto;
-  width: 640px;
+.use {
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
-.wrap2 {
-  position: relative;
-  margin: 0 auto;
-  padding: 20px 20px 20px;
-  width: 310px;
+.pw {
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  box-sizing: border-box;
 }
