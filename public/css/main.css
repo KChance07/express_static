@@ -1,3 +1,7 @@
+body {
+  background-color: aliceblue;
+}
+
 
 #main-header{
   background-color: #87CEFA;
@@ -30,7 +34,7 @@ ul.access li a:hover{
   color: #87CEFA;
 }
 
-  .btn {
+.btn {
     padding: 10px 30px;
     border: 1px solid white;
     border-radius: 5px;
@@ -40,6 +44,7 @@ ul.access li a:hover{
   margin: 0 auto;
   text-align: center;
 }
+
 #nav {
   margin-left: 15%;
 }
@@ -55,4 +60,40 @@ ul.access li a:hover{
 #nav li a {
   text-decoration: none;
   background-color: white;
+}
+
+.card {
+  background-color: white;
+  display: inline-block;
+  width: 225px;
+  height: 300px;
+  padding-top: 15px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card * {
+  width: inherit;
+}
+
+.card img{
+  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#signup-card div {
+  position: absolute;
+  height: 310px;
+}
+
+.box1 {
+  margin: 50px auto;
+  width: 640px;
+}
+
+.wrap2 {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
 }
