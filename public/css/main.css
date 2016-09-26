@@ -87,17 +87,19 @@ ul.access li a:hover{
 }
 
 .use {
+  border-radius: 4px;
   width: 100%;
-  padding: 0px 20px;
-  margin: 0px 0;
+  margin: 3px 0;
   display: inline-block;
   box-sizing: border-box;
+  position: relative;
 }
 
 .pw {
+  border: 4px;
   width: 100%;
-  padding: 0px 20px;
-  margin: 0px 0;
+  margin: 3px 0;
   display: inline-block;
   box-sizing: border-box;
+  position: relative;
 }
